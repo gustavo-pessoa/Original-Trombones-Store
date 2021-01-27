@@ -69,7 +69,6 @@ header {
   }
 }
 
-
 nav {
   font-weight: 400;
 }
@@ -90,7 +89,6 @@ nav {
    }
  }
 
-
 nav > ul {
   width: 35vw;
  display: flex;  /* Position lines side by side*/
@@ -98,14 +96,11 @@ nav > ul {
   justify-content: space-around; /* put spaces between nav options*/
 }
 
-
 @media (max-width: 650px) {
   nav > ul {
     flex-direction: column;
   }
 }
-
-
 
 li {
   list-style: none; /* remove bullets */
@@ -170,19 +165,22 @@ a {
     padding: 0 10px;
   }
 
- 
   @media (max-width: 650px) {
     #hero {
       margin-top: 120px;
     }
   }
-
-
+  
 .container {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
   }
+
+  #section1 {
+    height: 50px;
+    margin: 0 auto;
+}
 
   #features {
       margin-top: 30px;
@@ -232,6 +230,10 @@ a {
   }
 }
 
+#section2 {
+    height: 50px;
+    margin: 0 auto;
+}
 
 #how-it-works {  /* Video container */
     margin-top: 50px;
@@ -244,6 +246,10 @@ a {
   width: 100%;
 }
 
+#section3 {
+    height: 50px;
+    margin: 0 auto;
+}
 
 #pricing {
   margin-top: 60px;
@@ -251,7 +257,6 @@ a {
   flex-direction: row;
   justify-content: center;
 }
-
 
 .product {
 display: flex;
@@ -264,7 +269,6 @@ flex-direction: column;
   border-radius: 3px;
 }
 
-
 .product > .level { /* Product name */
   background-color: #ddd;
   color: black;
@@ -274,16 +278,13 @@ flex-direction: column;
   font-weight: 700;
 }
 
-
 .product > h2 {   /* Price */
     margin-top: 15px;
 }
 
-
 .product > ol {
   margin: 15px 0;
 }
-
 
 .product > ol > li {
   padding: 5px 0;
@@ -313,7 +314,6 @@ flex-direction: column;
   }
 }
 
-
 footer {
   margin-top: 30px;
   background-color: #ddd;
@@ -325,11 +325,9 @@ footer > ul {
   justify-content: flex-end;
 }
 
-
 footer > ul > li {
   padding: 0 10px;
 }
-
 
 footer > span {
    
